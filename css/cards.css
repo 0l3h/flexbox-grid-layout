@@ -1,0 +1,47 @@
+/* ************************Карточки*********************** */
+
+.content-wrap {
+    width: 1200px;
+    padding: 100px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card {
+    min-width: 200px;
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.card-content {
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22.4px;
+    margin: 0 0 10px;
+    color: #6c7279; 
+}
+
+h5 {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+svg {
+    color: #e84545;
+    font-size: 60px;
+}

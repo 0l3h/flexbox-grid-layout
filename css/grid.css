@@ -1,0 +1,27 @@
+/* **************************Разметка********************** */
+
+.col {
+    flex-basis: 100%;
+}
+
+:root {
+    --column-gap: 15px;
+}
+
+@media only screen and (min-width: 600px) {    
+    .screen-small {
+        flex-basis: calc(100% - var(--column-gap) * 11);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .screen-medium {
+        flex-basis: calc((100% - var(--column-gap) * 11) / 2);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .screen-large {
+        flex-basis: calc((100% - var(--column-gap) * 11) / 3);
+    }
+}

@@ -1,0 +1,21 @@
+/* **************************Общие стили************************** */
+
+@import "./grid.css";
+@import "./cards.css";
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #6c7279;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
